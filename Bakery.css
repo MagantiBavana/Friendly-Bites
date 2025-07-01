@@ -1,0 +1,148 @@
+* {
+    box-sizing: border-box;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+h1, h2, h3,p {
+    font-family: 'Pacifico', cursive;
+}
+
+.card{
+    background-color: pink;
+    width: 50px;
+    height: 550px;
+    font-size: 32px;
+}
+
+.icon{
+    display: flex;
+    justify-content: center;
+     size: 30px;
+    
+}
+i{
+    margin-right: 10px;
+    padding-top: 5px;
+   
+}
+
+.phone{
+    font-size: 12px;
+}
+
+.insta{
+    padding-left: 10px;
+}
+
+.Quote{
+    text-align: center;
+}
+
+
+.Quote1{
+    color: rgb(233, 163, 77);
+    
+}
+
+.about-us{
+    
+    color: rgb(233, 163, 77);
+    
+   
+}
+
+
+.about{
+    text-align: center;
+    
+   
+}
+
+
+.car{
+    width: 100%;
+}
+.our-products {
+    color: rgb(233, 163, 77);
+    text-align: center;
+}
+
+.product-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; /* optional: allows wrapping on small screens */
+    gap: 10px;
+    text-align: center;
+}
+
+.product-item {
+    width: 200px; /* or adjust as per your need */
+}
+
+.product-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.contact-us{
+    color: rgb(233, 163, 77);
+}
+
+.contact{
+    text-align: center;
+}
+
+@media (max-width:768px)
+{
+    .product-item{
+        
+        width:50%;
+        margin: 20px;
+    }
+    .product-item img{
+        width: 100%;
+    }
+
+}
+
+
+@media (min-width:768px)
+{
+    .product-item{
+        
+        width:33%;
+        margin: 20px;
+    }
+    .product-item img{
+        width: 100%;
+    }
+
+}
+
+
+
+@media (min-width:1024px)
+{
+    .product-item{
+        
+        width:20%;
+        margin: 20px;
+    }
+    .product-item img{
+        width: 100%;
+    }
+
+}
+
+
